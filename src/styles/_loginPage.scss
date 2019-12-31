@@ -1,3 +1,42 @@
-.login-page{
+.login-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding:7rem 6rem;
   
+  .ignite-background{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right:15%
+  }
+
+  .header {
+    .welcome {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color:#9e8bcc;
+    }
+
+    .ignite-chat {
+      font-family:$bold_font;
+      font-size: 2.6rem;
+      font-weight: 800;
+      color:#44346b;
+    }
+  }
+
+  .form {
+    margin-top:2rem;
+  }
+}
+
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
 }
